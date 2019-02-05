@@ -1,0 +1,51 @@
+.navDefault    {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: skyblue;
+}
+
+button     {
+    border: none;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    
+    color: white;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+}
+
+.dropdownMenu    {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50px;
+    width: 150px;
+    
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdownLink    {
+    display: block;
+    padding: 10px 5px;
+    background-color: slategrey;
+    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.dropdownLink:hover    {
+    color: slategrey;
+    background-color: white;
+}
