@@ -59,7 +59,8 @@ button     {
 }
 
 .dropdown:hover button   {
-    background-color: black;
+    background-color: lightgrey;
+    color: white;
 }
 
 .dropdown:hover .dropdownMenu    {
